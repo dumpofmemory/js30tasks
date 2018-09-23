@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>JS Drum Kit</title>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+
+	<div class="coverPhoto">
+
+
+	<div class="keys">
+    <div data-key="97" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="115" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="100" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="102" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="103" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="104" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="106" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="107" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="108" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="97" src="sounds/clap.wav"></audio>
+  <audio data-key="115" src="sounds/hihat.wav"></audio>
+  <audio data-key="100" src="sounds/kick.wav"></audio>
+  <audio data-key="102" src="sounds/openhat.wav"></audio>
+  <audio data-key="103" src="sounds/boom.wav"></audio>
+  <audio data-key="104" src="sounds/ride.wav"></audio>
+  <audio data-key="106" src="sounds/snare.wav"></audio>
+  <audio data-key="107" src="sounds/tom.wav"></audio>
+  <audio data-key="108" src="sounds/tink.wav"></audio>
+  
+
+  </div>
+
+  <script type="text/javascript" src="script.js">
+
+ 
+ //  	var elementsArray = document.getElementsByClassName('key'); //HTML Collection
+ //  	var elementsArrayLength = elementsArray.length;
+ //  	console.log(elementsArray);
+ //  	if(elementsArrayLength){
+ //  		for(var x = 0; x < elementsArrayLength; x = x + 1) {
+ //  			var i = elementsArray[x];
+	// 			console.log(i + ' = ' + i.innerText);
+	// 			console.log(i);
+	// 			console.log(i.textContent);
+	// 		i.addEventListener('click', function(){
+	// 			console.log("pressed" + ' ' + this.getAttribute('data-key'));
+	// 			this.className ='playing';				
+	// 		});
+
+	// 		i.addEventListener('keypress', function(event){
+	// 			console.log(event.keyCode);
+	// 			var e = event.charCode;
+	// 			if(e === i.getAttribute('data-key')){
+	// 			if(e === 108){
+	// 				event.preventDefault();
+	// 			console.log("pressed" + ' ' + e);
+	// 			this.className ='playing';
+	// 			}		
+	// 		});
+
+	// 	}
+	// }	
+
+
+
+
+			
+
+
+
+
+
+			// keys.forEach(function(key){
+
+					// document.body.addEventListener('keypress', function(e){
+					// 	// if(e.keyCode === key.getAttribute('data-key')) {
+					// 	// 	console.log(key);	
+					// 	// }
+					// 	for(var i = 0; i < key.length; i++){
+					// 		// console.log(key[i].getAttribute('data-key'));
+					// 		if(e.keyCode === key[i].getAttribute('data-key')) {
+					// 			console.log(key[i]);
+					// 		}
+					// 	}
+						
+					// }, false);
+					// key.onkeypress = function(e){
+					// 	console.log(e.keyCode);
+			// 		// };
+
+			// });
+			// var keysArrayLength = keys.length;
+		 //  	if(keysArrayLength){
+  	// 			for(var x = 0; x < keysArrayLength; x++) {
+  	// 				var i = keys[x];
+
+  	// 				var data = i.getAttribute('data-key');
+  					// console.log(data);
+
+  					//console.log(keys[x]);
+  					//console.log(i);
+					// console.log(i + ' = ' + i.innerText);
+					// console.log(i);
+					// console.log(i.textContent);
+
+					// =================EventListener for CLICK events
+						// i.addEventListener('click', function(){
+						// 	console.log("pressed" + ' ' + this.getAttribute('data-key'));
+						// 	this.classList.add('playing');				
+						// });
+					// =============================================================
+					
+
+
+					// i.addEventListener('click', function(e){
+					// // console.log(e);
+					// console.log("pressed" + ' ' + e.target.getAttribute('data-key'));
+
+					// // this.className ='playing';				
+					// });						
+
+			// 	}
+			// }		
+
+					
+
+					// document.body.addEventListener('keypress', function(e){
+					// 	if(e.keyCode === document.getElementsByClassName('key').getAttribute('data-key')) {
+					// 		console.log(key);	
+					// 		// e.preventDefault;
+
+					// 		// keys.forEach(function(key){
+					// 			// console.log(key.getAttribute('data-key'));
+					// 		// }); 
+								
+							
+					// 	}
+					// }, false);
+
+
+							
+
+
+
+	</script>
+
+	</body>
+  	
+</html> 
